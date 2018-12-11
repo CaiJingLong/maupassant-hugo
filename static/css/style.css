@@ -242,6 +242,11 @@ textarea {
     padding:0 60px;
     margin:0 auto;
 }
+
+.container-span{
+    width: 50%;
+}
+
 #secondary {
     float:right;
     width:245px;
