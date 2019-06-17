@@ -23,6 +23,11 @@
 {{ if .IsPage }}
     <script type="text/javascript" src="{{ "js/prism.js" | relURL}}" async="true"></script>
     <script type="text/javascript">
+    // 行号
+    (function(){
+        $("pre code").parent().addClass("line-numbers")
+    }())
+
     window.MathJax = {
         tex2jax: {
             inlineMath: [ ['$','$'] ],
